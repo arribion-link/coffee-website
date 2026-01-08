@@ -1,5 +1,5 @@
 import { HiArrowLongRight } from "react-icons/hi2";
-import hero from "../../../assets/hero.png"
+import hero from "../../../assets/hero1.png"
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
           <img
             src={hero}
             alt=""
-            className="max-w-[50em] absolute right-0 -top-12"
+            className="max-w-[35em] absolute right-10 -top-5"
           />
         </div>
       </div>

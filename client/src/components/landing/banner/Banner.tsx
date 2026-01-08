@@ -1,5 +1,5 @@
 import { HiArrowLongRight } from "react-icons/hi2";
-import banner_img from "../../../assets/banner-img.png"
+import banner_img from "../../../assets/banner-img1.png"
 const Banner = () => {
   return (
       <section className="mx-4 my-[10em] ">
@@ -14,7 +14,7 @@ const Banner = () => {
           </button>
         </div>
         <div>
-          <img src={banner_img} alt="" className="absolute bottom-0 max-w-[17em] right-25" />
+          <img src={banner_img} alt="" className="absolute -bottom-5 max-w-[27em] right-25" />
         </div>
       </div>
     </section>

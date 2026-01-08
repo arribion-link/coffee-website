@@ -4,13 +4,14 @@ import { HiArrowLongRight } from "react-icons/hi2";
 import { LuNetwork } from "react-icons/lu";
 import { GrCertificate } from "react-icons/gr";
 import { GoStack } from "react-icons/go";
+import about_img from "../../../assets/about.png"
 const About = () => {
     
   return (
     <section className="min-h-screen my-[12em] mx-4 ">
       <div className="grid md:grid-cols-2 gap-8 mt-10">
         <div>
-          <div></div>
+          <img src={about_img} alt="" className="max-w-[30em] " />
         </div>
         <div>
           <h1 className="text-[clamp(1.5em,7vw,3em)] font-bold text-amber-800">
