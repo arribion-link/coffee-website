@@ -1,9 +1,10 @@
 import { HiArrowLongRight } from "react-icons/hi2";
-import hero from "../../assets/hero.png";
+import hero from "../../../assets/hero.png"
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
-    <section className="min-h-screen ml-4">
-      <div className="grid gap-6  grid-cols-2">
+    <section className="min-h-[60vh] ml-4 mt-6 md:mt-1">
+      <div className="grid gap-6  md:grid-cols-2">
         <div>
           <h1 className="text-[clamp(2em,7vw,5em)] font-bold text-amber-950 ">
             COFFEE POINT
@@ -17,12 +18,14 @@ const Hero = () => {
           </p>
           <div className="my-4 flex gap-8">
             <button className="text-white bg-amber-950 py-1 px-4 rounded-4xl flex gap-6 items-center">
-                Explore our Product
-                <HiArrowLongRight/>
+              Explore our Product
+              <HiArrowLongRight />
             </button>
-            <button className="text-amber-950 font-bold">
-              sign in / sign up
-            </button>
+            <Link to="/login">
+              <button className="border border-amber-900 py-1 px-4 rounded-3xl">
+                Sign in / sign Up
+              </button>
+            </Link>
           </div>
           <div className="grid grid-cols-2">
             <div>
@@ -35,7 +38,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="relative bg-slate-100 rounded-l-2xl">
+        <div className="relative shadow bg-slate-200 rounded-l-2xl">
           <img
             src={hero}
             alt=""

@@ -1,6 +1,6 @@
 // import React from 'react'
 
-const ProductDropDown = () => {
+const Dashboard = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const ProductDropDown = () => {
   )
 }
 
-export default ProductDropDown
+export default Dashboard
