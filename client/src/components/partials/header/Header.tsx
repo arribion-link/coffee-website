@@ -47,9 +47,6 @@ const handlePopUp = () => {
           <Link to="/packaging">
             <li>Packaging</li>
           </Link>
-          <Link to="/offer">
-            <li>Offer</li>
-          </Link>
           <Link to="/contact">
             <li>Contact</li>
           </Link>
