@@ -11,7 +11,7 @@ const About = () => {
     <section className="min-h-screen my-[12em] mx-4 ">
       <div className="grid md:grid-cols-2 gap-8 mt-10">
         <div>
-          <img src={about_img} alt="" className="max-w-[30em] " />
+          <img src={about_img} alt="" className="w-full h-auto max-w-[30em]  " />
         </div>
         <div>
           <h1 className="text-[clamp(1.5em,7vw,3em)] font-bold text-amber-800">
@@ -22,7 +22,7 @@ const About = () => {
             day. Here i can spend a long and comfortable time with this
             workspace tacilities
           </p>
-          <div className="grid grid-cols-2 mt-6">
+          <div className="grid md:grid-cols-2 mt-6">
             <div className="my-4 flex gap-4 items-center">
               <div className="p-4 rounded-4xl bg-pink-200 text-amber-700">
                 <IoChatbubblesOutline size={30} />

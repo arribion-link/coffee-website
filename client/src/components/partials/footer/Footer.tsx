@@ -8,7 +8,7 @@ const Footer = () => {
     const information = ["Plans & Pricing", "Jobs", "Selling our product"];
   return (
     <footer className="bg-amber-950 min-h-[40vh] relative text-white rounded-t">
-      <div className="grid grid-cols-5 p-5">
+      <div className="grid gap-8 grid-cols-1  sm:grid-cols-3 m2:grid-cols-5 p-5">
         <div>
           <h2 className="text-2xl"> Privecy</h2>
           <ul>

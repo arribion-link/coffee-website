@@ -4,7 +4,7 @@ const newsletter = () => {
   return (
     <section className="mx-4 my-[5em] ">
       <div className=" bg-pink-200 rounded-2xl p-4 min-h-[40vh] relative">
-        <img src={grain_img1} alt="" className="absolute max-w-[18em] left-0 -top-15 " />
+        <img src={grain_img1} alt="" className="absolute hidden md:block max-w-[18em] left-0 -top-15 " />
         <div className="">
           <h1 className="text-[clamp(1em,7vw,2.5em)] text-center font-bold text-amber-950 ">
             Join in and get % 20 OFF!

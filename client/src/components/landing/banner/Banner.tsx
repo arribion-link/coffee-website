@@ -14,7 +14,7 @@ const Banner = () => {
           </button>
         </div>
         <div>
-          <img src={banner_img} alt="" className="absolute -bottom-5 max-w-[27em] right-25" />
+          <img src={banner_img} alt="" className="absolute -bottom-32 md:-bottom-5 max-w-[27em] right-0 md:right-25" />
         </div>
       </div>
     </section>

@@ -1,3 +1,6 @@
+
+// type timelineData
+
 const timelineData = [
   {
     time: "06:00 AM",
